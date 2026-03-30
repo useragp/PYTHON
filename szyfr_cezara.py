@@ -1,6 +1,6 @@
-klucz = 3
-oryginal = "WARSZAWKA"
-zaszyfrowany = ""
+klucz = 3    # podaj klucz
+oryginal = "WARSZAWKA"    # podaj oryginalną wiadomość
+zaszyfrowany = ""    #zaszyfrowana wiadomość (zostanie wyświetlona)
 
 for literka in oryginal:
     index = ord(literka)
